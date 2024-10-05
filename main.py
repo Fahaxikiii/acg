@@ -18,7 +18,7 @@ class ACGPlugin(BasePlugin):
         if msg == "acg":
 
             self.ap.logger.debug("hello, {}".format(ctx.event.sender_id))
-            ctx.add_return("reply", [Image(url=url='https://www.loliapi.com/acg/')])
+            ctx.add_return("reply", [Image(url='https://www.loliapi.com/acg/')])
             ctx.prevent_default()
 
     @handler(GroupNormalMessageReceived)

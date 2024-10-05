@@ -4,7 +4,7 @@ from pkg.plugin.events import *
 from mirai import Image
 
 @register(name="ACG", description="ACG PIC", version="0.1", author="Fahaxikiii")
-class ACGPlugin(BasePlugin):
+class AcgPlugin(BasePlugin):
 
     def __init__(self, host: APIHost):
         pass
